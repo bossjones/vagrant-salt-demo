@@ -14,8 +14,7 @@ Vagrant::Config.run do |config|
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
 
   ## For masterless, mount your salt file root
-  config.vm.share_folder "file_roots", "/srv/salt", "srv/salt"
-  config.vm.share_folder "pillar_roots", "/srv/pillar", "srv/pillar"
+  config.vm.share_folder "salt-fileserver", "/srv", "srv"
 
   # Configure the Salt Minion VM
   config.vm.define :minion do |minion_config|
