@@ -1,0 +1,3 @@
+[submodule "srv/salt/base"]
+	path = srv/salt/base
+	url = ../salt-base-states/
