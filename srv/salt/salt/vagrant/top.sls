@@ -1,4 +1,4 @@
-vagrant-dev:
+vagrant:
   '*.local':
     - roles.web.frontend
     - roles.data.db

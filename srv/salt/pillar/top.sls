@@ -1,3 +1,3 @@
 base:
-  'vagrant-dev':
+  'vagrant':
     - packages
