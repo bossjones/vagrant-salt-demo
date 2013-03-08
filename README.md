@@ -15,6 +15,7 @@ Next, clone this repo and run the following commands:
 
 ```
 git clone https://github.com/jaddison/vagrant-salt-demo.git
+cd vagrant-salt-demo
 git submodule init
 git submodule update
 vagrant up
