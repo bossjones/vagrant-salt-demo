@@ -22,6 +22,8 @@ git submodule init
 git submodule update
 ```
 
+[The git submodule installed is here](https://github.com/jaddison/salt-base-states).
+
 Then, start your engines (run Vagrant):
 
 ```
